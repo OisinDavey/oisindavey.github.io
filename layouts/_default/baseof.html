@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+<head>
+	<title>{{ if not .IsHome }}{{ .Title | title }} | {{ end }}{{ .Site.Title }}</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+	<link rel="canonical" href="{{ .Site.BaseURL }}">
+	<link rel='alternate' type='application/rss+xml' title="{{ .Site.Title }} RSS" href='/index.xml'>
+    <link rel='stylesheet' type='text/css' id="dynamic_css_href" href= "/styles/default.css">
+	{{ with .Site.Params.favicon }}<link rel="icon" href="">
+	{{ end -}}
+	<meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}">
+	{{ if isset .Params "tags" }}<meta name="keywords" content="{{ with .Params.tags }}{{ delimit . ", " }}{{ end }}">
+	{{ end -}}
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+</head>
+<body>
+    {{ if .Site.Menus.main }}{{ partial "nav.html" . }}{{ end -}}
+<main>
+<header><h1 id="tag_{{ .Title }}">{{ block "title" . }}{{ end }}</h1></header>
+{{ partial "sidenav.html" }}
+<article>
+{{ block "main" . }}
+{{ .Content }}
+{{ end }}
+<div>
+{{ if .Param "nextprev" }}{{ partial "nextprev.html" . -}}{{ end -}}
+<br>
+{{ if .Param "taglist" }}{{ partial "taglist.html" . }}{{ end -}}
+<br>
+</div>
+</article>
+</main>
+{{ block "footer" . }}
+<footer>
+    {{ partial "theme_switch.html" }}
+</footer>
+{{ end }}
+<div><br><br><br></div>
+</body>
+</html>

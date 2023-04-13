@@ -1,0 +1,4 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Maynooth University Physics & Chemistry Society'
+theme = 'empty_theme'

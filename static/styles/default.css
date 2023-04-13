@@ -1,0 +1,180 @@
+body {
+    font-family: "Audiowide", sans-serif;
+	background: #252424;
+	color: #ccc ;
+    background-image: url(images/hourglass.png);
+    background-image: url(images/carina.webp);
+    background-image: url(images/jupiter.webp);
+    background-image: url(images/deep-field.webp);
+    background-image: url(images/aurora.jpg);
+    background-image: url(images/tileable.png);
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+main {
+	/*max-width: 800px ;*/
+    margin-left: 160px;
+    margin-right: 20px;
+	/*margin: auto;*/
+    background-color: rgba(38,37,37,0.8);
+    color: white;
+    border-radius: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-size: 80%;
+}
+
+img {
+	max-width: 100% ;
+}
+
+header h1 {
+	text-align: center ;
+}
+
+footer {
+    font-family: "Audiowide", sans-serif;
+	text-align: center ;
+	clear: both ;
+}
+
+/* For TAGLIST.HTML */
+.taglist {
+	text-align: center ;
+	clear: both ;
+}
+
+/* For NEXTPREV.HTML */
+#nextprev {
+	/* The container for both the previous and next articles. */
+}
+#prevart {
+	float: left ;
+	text-align: left ;
+}
+#nextart {
+	float: right ;
+	text-align: right ;
+}
+#nextart,#prevart {
+	max-width: 33% ;
+}
+
+a:visited {
+    color: grey;
+}
+
+/* For theme switch */
+.theme_switch_container {
+    margin-left: 160px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.theme_switch {
+    position: fixed;
+    bottom: 10px;
+    width: 350px;
+    text-align:justify;
+}
+
+.theme_switch button {
+    font-family: "Audiowide", sans-serif;
+    width: 33%;
+    background-color: rgba(33,00,66,0.9);
+    border: none;
+    color: #f0f8ff; /* White text */
+    padding: 4px 10px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    font-size: 14px;
+}
+
+/* Clear floats (clearfix hack) */
+.theme_switch:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.theme_switch button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.theme_switch button:hover {
+  background-color: #1d3142;
+}
+
+.optional_box {
+    position: fixed;
+    bottom: 10px;
+    text-align:justify;
+    width: 100%;
+    height: 17.1px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    padding: 5px 10px; /* Some padding */
+    font-size: 16px;
+    float: left; /* Float the buttons side by side */
+}
+
+.sidenav {
+    background-color: #1d3142;
+    background-color: rgba(33,0,33,0.8);
+    height: 100%;
+    width: 140px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    overflow-x: hidden;
+    z-index: 1;
+}
+
+.sidenav img {
+    height: 100px;
+    width: 110px;
+    position: absolute;
+    bottom: 60px;
+    left: 15px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+header {
+    /*
+    position: sticky;
+    top: 10px;
+    */
+    background-color: rgba(33,00,66,0.8);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 50px;
+}
+
+@media (max-width: 700px){
+    .sidenav {
+        display: none !important;
+    }
+    main {
+        margin-left: 20px;
+    }
+    .theme_switch_container {
+        margin-left: 20px;
+    }
+}

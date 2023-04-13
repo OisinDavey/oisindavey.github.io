@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'Comic Sans MS';
+  src: url("local-fonts/comici.ttf");
+}
+
+body {
+	font-family: "Comic Sans MS", Arial, sans-serif;
+	background: #f9e6e6 ;
+	color: #e38aae ;
+	text-align: center ;
+}
+
+.pink-mode {
+    background-color: #ffffff ;
+}
+
+main {
+    margin-left: 160px;
+    margin-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    font-size: 80%;
+}
+
+img {
+	max-width: 100% ;
+}
+
+header h1 {
+	text-align: center ;
+}
+
+h1 {
+    text-align: center ;
+}
+
+footer {
+	text-align: center ;
+	clear: both ;
+}
+
+/* For TAGLIST.HTML */
+.taglist {
+	text-align: center ;
+	clear: both ;
+}
+
+/* For NEXTPREV.HTML */
+#nextprev {
+	/* The container for both the previous and next articles. */
+}
+#prevart {
+	float: left ;
+	text-align: left ;
+    color: #cc3399;
+}
+#nextart {
+	float: right ;
+	text-align: right ;
+    color: #cc3399;
+}
+#nextart,#prevart {
+	max-width: 33% ;
+}
+
+/* For theme switch */
+.theme_switch_container {
+    margin-left: 160px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.theme_switch {
+	font-family: "Comic Sans MS", Arial, sans-serif;
+    position: fixed;
+    bottom: 10px;
+    width: 350px;
+    text-align:justify;
+}
+
+.theme_switch button {
+    cursor: pointer; /* Pointer/hand icon */
+    width: 33%;
+	color: white;
+	background-color: #e38aae;
+    font-family : inherit;
+    font-size: 1em;
+    border-radius: 40%;
+    padding: 4px 10px;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+}
+
+.theme_switch:after {
+    content:'';
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.theme_switch .button:hover {
+  background-color: #a155b9;
+}
+
+/* Puts little hearts around stuff */
+h1:before {
+  content: "♡ ";
+}
+h1:after {
+  content: " ♡";
+}
+p:before {
+  content: "♡ ";
+}
+p:after {
+  content: " ♡";
+}
+
+.sidenav {
+    border-style: double;
+    border-width: 10px;
+    border-color: white;
+    background-color: #e38aae;
+    height: 100%;
+    width: 140px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    overflow-x: hidden;
+    z-index: 1;
+    /*background-image: url(images/heart-tiles.webp);*/
+    background-size: 100%;
+}
+
+.sidenav img {
+    height: 140px;
+    width: 130px;
+    position: absolute;
+    bottom: 60px;
+    left: 5px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+@media (max-width: 700px){
+    .sidenav {
+        display: none !important;
+    }
+    main {
+        margin-left: 20px;
+    }
+    .theme_switch_container {
+        margin-left: 20px;
+    }
+}
