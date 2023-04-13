@@ -41,6 +41,10 @@ footer {
 	clear: both ;
 }
 
+li {
+    list-style-type: none;
+}
+
 /* For TAGLIST.HTML */
 .taglist {
 	text-align: center ;
