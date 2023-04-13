@@ -50,6 +50,10 @@ li {
 	text-align: center ;
 	clear: both ;
 }
+.taglist h1{
+    font-size: 14px;
+    font-weight: normal;
+}
 
 /* For NEXTPREV.HTML */
 #nextprev {

@@ -99,6 +99,11 @@ link {
 .taglist a{
     color: cyan;
 }
+.taglist h1{
+    color: lightgrey;
+    font-size: 14px;
+    font-weight: normal;
+}
 
 .sidenav {
     background-color: #1d3142;

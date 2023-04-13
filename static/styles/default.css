@@ -2,21 +2,14 @@ body {
     font-family: "Audiowide", sans-serif;
 	background: #252424;
 	color: #ccc ;
-    background-image: url(images/hourglass.png);
-    background-image: url(images/carina.webp);
-    background-image: url(images/jupiter.webp);
-    background-image: url(images/deep-field.webp);
-    background-image: url(images/aurora.jpg);
     background-image: url(images/tileable.png);
     background-repeat: repeat-y;
     background-size: 100%;
 }
 
 main {
-	/*max-width: 800px ;*/
     margin-left: 160px;
     margin-right: 20px;
-	/*margin: auto;*/
     background-color: rgba(38,37,37,0.8);
     color: white;
     border-radius: 40px;
@@ -31,6 +24,13 @@ img {
 	max-width: 100% ;
 }
 
+header {
+    background-color: rgba(33,00,66,0.8);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 50px;
+}
+
 header h1 {
 	text-align: center ;
 }
@@ -41,10 +41,29 @@ footer {
 	clear: both ;
 }
 
+a:visited {
+    color: grey;
+}
+
+a:link {
+    color: cyan;
+}
+
+a:hover {
+    color: white;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
 /* For TAGLIST.HTML */
 .taglist {
 	text-align: center ;
 	clear: both ;
+}
+.taglist h1{
+    font-size: 14px;
+    font-weight: normal;
 }
 
 /* For NEXTPREV.HTML */
@@ -61,10 +80,6 @@ footer {
 }
 #nextart,#prevart {
 	max-width: 33% ;
-}
-
-a:visited {
-    color: grey;
 }
 
 /* For theme switch */
@@ -96,18 +111,21 @@ a:visited {
 
 /* Clear floats (clearfix hack) */
 .theme_switch:after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .theme_switch button:not(:last-child) {
-  border-right: none; /* Prevent double borders */
+    border-right: none; /* Prevent double borders */
 }
 
 /* Add a background color on hover */
 .theme_switch button:hover {
-  background-color: #1d3142;
+    background-color: #1d3142;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
 }
 
 .optional_box {
@@ -156,17 +174,6 @@ a:visited {
   color: #f1f1f1;
 }
 
-header {
-    /*
-    position: sticky;
-    top: 10px;
-    */
-    background-color: rgba(33,00,66,0.8);
-    padding-top: 2px;
-    padding-bottom: 2px;
-    border-radius: 50px;
-}
-
 @media (max-width: 700px){
     .sidenav {
         display: none !important;
@@ -177,4 +184,13 @@ header {
     .theme_switch_container {
         margin-left: 20px;
     }
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
 }
