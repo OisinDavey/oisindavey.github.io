@@ -1,5 +1,5 @@
-title = "mu-physchem"
-baseURL = 'https://mu-physchem.github.io/site'
+title = "oisín's site"
+baseURL = 'https://oisindavey.github.io'
 languageCode = 'en-us'
 
 [params]

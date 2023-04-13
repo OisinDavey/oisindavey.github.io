@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://oisindavey.github.io/'
 languageCode = 'en-us'
-title = 'Maynooth University Physics & Chemistry Society'
+title = "oisín's site"
 theme = 'empty_theme'
