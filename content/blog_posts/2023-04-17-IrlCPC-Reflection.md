@@ -25,7 +25,9 @@ For the interested, there are so many oppurtunities available for students, abou
 #### ICPC
 > The canonical international college programming contest.
 #### AIPO
-> Our national secondary school programming contest. The winners of this contest may go on to compete in the IOI.
+> Our national secondary school programming contest. The winners of this contest may go on to compete in the IOI and the EGOI.
+#### EGOI
+> European girls secondary school programming contest.
 #### IOI
 > The canonical international secondary school programming contest.
   
