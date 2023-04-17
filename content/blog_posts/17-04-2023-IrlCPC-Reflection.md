@@ -2,6 +2,7 @@
 title: "IrlCPC Reflection"
 date: 2023-04-17T08:51:43+01:00
 draft: false
+tags: ["AIPO", "IrlCPC", "Competitive Programming", "IOI", "Maynooth University", "UCC"]
 ---
 
 Today I've been made aware of an [article written up by insight](https://www.insight-centre.org/team-bigboggerboys3-win-gold-at-the-irish-collegiate-programming-competition-2023/) about the IrlCPC contest earlier this year. Delighted to see our teamname up in lights in the headline (although it needs be remarked that the full name is _Big Bogger Boys 3: Bugaboo Busters_), also in great spirits that the fada in my name was included! It's always nice to visit Cork whenever these competitive programming events happen and to see everyone, although I'm sad to say I couldn't stick around for long due to all the hostels being either fully booked or outrageously priced.  

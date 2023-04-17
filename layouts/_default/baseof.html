@@ -9,7 +9,7 @@
 	{{ with .Site.Params.favicon }}<link rel="icon" href="">
 	{{ end -}}
 	<meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}">
-	{{ if isset .Params "tags" }}<meta name="keywords" content="{{ with .Params.tags }}{{ delimit . ", " }}{{ end }}">
+	{{ if isset .Params "tags" }}<meta name="keywords" content="Oisin Davey, Oisín Davey, {{ with .Params.tags }}{{ delimit . ", " }}{{ end }}">
 	{{ end -}}
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="index, follow">
