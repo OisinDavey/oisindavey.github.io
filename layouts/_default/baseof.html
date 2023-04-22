@@ -17,6 +17,20 @@
 	<meta charset="utf-8">
     <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+    <script>
+        var css_link = "/styles/"+localStorage.getItem("style")+".css";
+        if (css_link === "/styles/null.css") {
+            css_link = "/styles/default.css";
+        }
+        var logo_link = "/styles/images/"+localStorage.getItem("style")+"_logo_transparent.png";
+        if (css_link === "/styles/null.css") {
+            css_link = "/styles/default.css";
+        }
+        var stylesheet_attribute = document.getElementById("dynamic_css_href");
+        stylesheet_attribute.setAttribute("href", css_link);
+        var logo_attribute = document.getElementById("dynamic_transparent_logo");
+        logo_attribute.setAttribute("src", logo_link);
+    </script>
 </head>
 <body>
     {{ if .Site.Menus.main }}{{ partial "nav.html" . }}{{ end -}}
