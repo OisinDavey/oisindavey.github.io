@@ -1,0 +1,192 @@
+<div id="sketch-container">
+</div>
+<div>
+    <script>
+        var planets = [
+            { px: 200, py: 100, vx: 0.01, vy: 0.00, radius: 10, mass: 10, color:' #888', active: false },
+            { px: 100, py: 200, vx: 0.00, vy: 0.01, radius: 5, mass: 1, color:' #888', active: false },
+        ]
+
+        var prev_time = Date.now();
+
+        function setup() {
+            let canvas = createCanvas(0.9*document.getElementById("main").offsetWidth, windowHeight);
+            canvas.parent('sketch-container');
+            ellipseMode(RADIUS);
+            comButton = createButton('Centre of mass frame');
+            comButton.position(230, 100);
+            comButton.mousePressed(comFrame);
+            threeBodyProblemButton = createButton('3 Body problem');
+            threeBodyProblemButton.position(230, 150);
+            threeBodyProblemButton.mousePressed(threeBodyProblem);
+            sunAndEarthButton = createButton('Sun and earth');
+            sunAndEarthButton.position(230, 200);
+            sunAndEarthButton.mousePressed(sunAndEarth);
+            binaryStarButton = createButton('Binary system');
+            binaryStarButton.position(230, 250);
+            binaryStarButton.mousePressed(binaryStar);
+            if(localStorage.getItem("style") == "default"){
+                comButton.style("font-family", "inherit");
+                comButton.style("background-color", "#660066");
+                comButton.style("cursor", "pointer");
+                comButton.style("color", "white");
+                comButton.style("padding", "4px 10px");
+                comButton.style("font-size", "14px");
+                threeBodyProblemButton.style("font-family", "inherit");
+                threeBodyProblemButton.style("background-color", "#660066");
+                threeBodyProblemButton.style("cursor", "pointer");
+                threeBodyProblemButton.style("color", "white");
+                threeBodyProblemButton.style("padding", "4px 10px");
+                threeBodyProblemButton.style("font-size", "14px");
+                sunAndEarthButton.style("font-family", "inherit");
+                sunAndEarthButton.style("background-color", "#660066");
+                sunAndEarthButton.style("cursor", "pointer");
+                sunAndEarthButton.style("color", "white");
+                sunAndEarthButton.style("padding", "4px 10px");
+                sunAndEarthButton.style("font-size", "14px");
+                binaryStarButton.style("font-family", "inherit");
+                binaryStarButton.style("background-color", "#660066");
+                binaryStarButton.style("cursor", "pointer");
+                binaryStarButton.style("color", "white");
+                binaryStarButton.style("padding", "4px 10px");
+                binaryStarButton.style("font-size", "14px");
+            }
+            if(localStorage.getItem("style") == "frilly"){
+                comButton.style("font-family", "inherit");
+                comButton.style("background-color", "#e38aae");
+                comButton.style("cursor", "pointer");
+                comButton.style("color", "white");
+                comButton.style("padding", "4px 10px");
+                comButton.style("font-size", "14px");
+                comButton.style("border-radius", "30%");
+                threeBodyProblemButton.style("font-family", "inherit");
+                threeBodyProblemButton.style("background-color", "#e38aae");
+                threeBodyProblemButton.style("cursor", "pointer");
+                threeBodyProblemButton.style("color", "white");
+                threeBodyProblemButton.style("padding", "4px 10px");
+                threeBodyProblemButton.style("font-size", "14px");
+                threeBodyProblemButton.style("border-radius", "30%");
+                sunAndEarthButton.style("font-family", "inherit");
+                sunAndEarthButton.style("background-color", "#e38aae");
+                sunAndEarthButton.style("cursor", "pointer");
+                sunAndEarthButton.style("color", "white");
+                sunAndEarthButton.style("padding", "4px 10px");
+                sunAndEarthButton.style("font-size", "14px");
+                sunAndEarthButton.style("border-radius", "30%");
+                binaryStarButton.style("font-family", "inherit");
+                binaryStarButton.style("background-color", "#e38aae");
+                binaryStarButton.style("cursor", "pointer");
+                binaryStarButton.style("color", "white");
+                binaryStarButton.style("padding", "4px 10px");
+                binaryStarButton.style("font-size", "14px");
+                binaryStarButton.style("border-radius", "30%");
+            }
+        }
+
+        function sunAndEarth(){
+            planets = [
+                { px: 0, py: 0, vx: 0.00, vy: 0.00, radius: 10, mass: 50, color:'#ffffcc', active: false },
+                { px: 200, py: 0, vx: 0.00, vy: 0.117, radius: 5, mass: 0.5, color:'#009999', active: false },
+            ]
+        }
+        function threeBodyProblem(){
+            planets = [
+                { px: -50, py: 86.7, vx: 0.00, vy: 0.00, radius: 5, mass: 1, color:"#F00", active: false },
+                { px: 100, py: 0, vx: 0.00, vy: 0.00, radius: 5, mass: 1, color:"#0F0", active: false },
+                { px: -50, py: -86.7, vx: 0.00, vy: 0.00, radius: 5, mass: 1, color:"#00F", active: false },
+            ]
+        }
+        function binaryStar(){
+            planets = [
+                { px: 100, py: 0, vx: 0.00, vy: -0.04, radius: 10, mass: 10, color:'#ff6600', active: false },
+                { px: -100, py: 0, vx: 0.00, vy: 0.04, radius: 10, mass: 10, color:'#ff6600', active: false },
+            ]
+        }
+
+        function windowResized() {
+            resizeCanvas(0.9*document.getElementById("main").offsetWidth, windowHeight);
+        }
+
+        function comFrame() {
+            var com = { px: 0, py: 0, vx: 0, vy: 0, mass: 0 } 
+            for(var i=0;i<planets.length; i++){
+                com.px += planets[i].px*planets[i].mass;
+                com.py += planets[i].py*planets[i].mass;
+                com.vx += planets[i].vx*planets[i].mass;
+                com.vy += planets[i].vy*planets[i].mass;
+                com.mass += planets[i].mass
+            }
+            for(var i=0;i<planets.length; i++){
+                planets[i].px -= com.px/com.mass;
+                planets[i].py -= com.py/com.mass;
+                planets[i].vx -= com.vx/com.mass;
+                planets[i].vy -= com.vy/com.mass;
+            }
+        }
+
+        function physStep(){
+            var deltaT = Date.now()-prev_time;
+            prev_time = Date.now();
+            for(var i=0; i < planets.length; i++){
+                planets[i].px += deltaT*planets[i].vx;
+                planets[i].py += deltaT*planets[i].vy;
+            }
+            for(var i=0; i < planets.length; i++){
+                for(var j=0;j<planets.length;j++){
+                    if(i==j){
+                        continue;
+                    }
+                    var rx=planets[j].px-planets[i].px;
+                    var ry=planets[j].py-planets[i].py;
+                    var r=Math.sqrt(rx*rx+ry*ry);
+                    planets[i].vx += (planets[j].mass)*rx/(r*r*r);
+                    planets[i].vy += (planets[j].mass)*ry/(r*r*r);
+                }
+            }
+        }
+
+        function draw() {
+            translate(width/2, height/2);
+            scale(1, -1);
+            clear();
+            if(localStorage.getItem("style") == "frilly"){
+                background("#222");
+            }
+            physStep();
+            for (var i = 0; i < planets.length; i++) {
+                noStroke();
+                fill(color(planets[i].color));
+                ellipse(planets[i].px, planets[i].py, planets[i].radius, planets[i].radius);
+            }
+        }
+
+        function mousePressed() {
+            for (var i = 0; i < planets.length; i++) {
+                var planet = planets[i];
+                distance = dist(mouseX-0.5*width, -mouseY+0.5*height, planet.px, planet.py);
+                if (distance < planet.radius) {
+                    planet.active = true;
+                } else {
+                    planet.active = false;
+                }
+            }
+            return false;
+        }
+
+        function mouseDragged() {
+            if (planets.length > 0) {
+                for (var i = 0; i < planets.length; i++) {
+                    var planet = planets[i];
+                    if (planet.active) {
+                        planet.vx = 0;
+                        planet.vy = 0;
+                        planet.px = mouseX-0.5*width;
+                        planet.py = -mouseY+0.5*height;
+                        break;
+                    }
+                }
+            }
+            return false;
+        }
+    </script>
+</div>
