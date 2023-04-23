@@ -2,6 +2,7 @@
 title: "Gravity Simulator"
 date: 2023-04-22T17:54:42+01:00
 draft: false
+tags: ["physics", "webdev"]
 ---
 
 I decided to try adding some moving things to this site to make it more of a quasi-static site.
