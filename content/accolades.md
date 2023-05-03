@@ -8,6 +8,8 @@ draft: false
 > All Ireland Collegiate Programming Contest 1st place.  
 
 > Fellowship in photoelectronics to Tyndall.  
+
+> Hamilton award for first place in Maynooth's 2023 programmathon.
 ## 2022
 > Boole award for highest mathematics mark in first year science Maynooth.  
 
