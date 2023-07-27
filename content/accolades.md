@@ -5,6 +5,12 @@ draft: false
 ---
 
 ## 2023
+> Delort prize for outstanding performance in pure maths exams.
+
+> Huxley prize for best performance in Euclidean Geometry
+
+> Monsignor Spelman Prize for best performance in second year Maths and Maths Physics
+
 > All Ireland Collegiate Programming Contest 1st place.  
 
 > Fellowship in photoelectronics to Tyndall.  
