@@ -6,12 +6,14 @@ draft: false
 
 ### Hiya!
 
-Please enjoy the following lorem ipsum text:
+My name is Oisín (with a fada); I'm studying to become a physicist/mathematician/something or other at Maynooth University, Ireland.  
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et vulputate nibh, in varius erat. Duis eu rutrum lectus, a bibendum risus. Ut et aliquet sem. Curabitur purus neque, consectetur sed interdum eu, consequat non nulla. Vivamus ut orci vulputate, cursus nibh sit amet, iaculis mi. Pellentesque in interdum dui, et molestie neque. Curabitur ligula felis, rutrum sit amet vestibulum nec, varius et risus.
+### Hobbies/Interests
 
-Vivamus egestas augue et diam bibendum, vel porttitor nisl finibus. Nullam vel volutpat dui. In lacinia nunc ac rutrum pulvinar. Aliquam vestibulum finibus elit eget ornare. Nulla facilisi. Etiam semper erat sed blandit vulputate. Quisque pretium ex eget pharetra molestie. Aenean nec nisi tellus. Nulla ut mauris sit amet erat volutpat vestibulum. Vivamus et pulvinar nisl. Quisque eget gravida eros. Etiam at molestie leo. Sed congue urna sagittis ex luctus maximus. Donec maximus ex ex.
+I have the default set of hobbies & interests for a physics undergrad: on the "In a band"/"Rock climbs" spectrum, I'm more musically inclined. I'm a big fan of Mitski, KKB, They might be giants, Tally Hall, The Divine Comedy and Autoheart. I've had great success at trying my best-est to play instruments, although going further with these attempts hasn't panned out.  
 
-Proin bibendum tortor ac convallis vehicula. Vestibulum at commodo est. Ut arcu tellus, viverra vitae volutpat id, consequat id est. Suspendisse in justo dictum, hendrerit augue vitae, dignissim nulla. Etiam malesuada enim arcu, vitae scelerisque purus mollis ut. Vestibulum sollicitudin sodales lorem, nec feugiat enim tincidunt id. Aliquam tempor id arcu et lacinia. Fusce vel laoreet ex, quis vulputate enim. Proin accumsan, massa sed molestie molestie, ligula odio accumsan est, nec cursus massa purus non purus. Nullam commodo cursus mauris ut aliquet. In eleifend faucibus arcu, sit amet dapibus tortor gravida eu. Nulla scelerisque nisi urna.
+I have a TBR pile stretching back to 2019, mostly novels. Opinion on the greek classics: The Odyssey is great, the Iliad is _terrible_, and the Aeneid is pretty good. Source? The odyessy has cool boat adventures, while the greeks and trojans never even leave Ilium!! The horse isn't even in the book. 
+
+Puzzles, bugaboos, quandries and dilemmas? _Love'em_. I used to focus in on competitive programming when I was younger, which served as my main aspiration. Now though, I tend to be less focus and more diversified, so I like fun maths problems, latin square puzzles, crosswords, etc. Although usually I like to study puzzles that can be analysed for their mathematical properties, like sudoku or hashiwokakero.
 
 ### Site index:
