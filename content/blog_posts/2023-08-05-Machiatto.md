@@ -2,7 +2,7 @@
 title: "Machiatto Emptiness by Manic Street Preachers"
 date: 2023-08-05T18:43:41+01:00
 draft: false
-tags: ["Machiatoo"]
+tags: ["Machiatto"]
 ---
 
 I don't know alot about coffee, by barista standards, but I know what I like. I've had the famous Singapore iced coffee and tried lots of different italian coffees, but honestly, for me, nothing compares to the machiatto in brewhouse maynooth. During January exams this year, I started every single morning with a machiatto as soon as the doors opened. I was almost always the first customer there and I would have to wait for them to set up the equipment but it was always worth it, regardless of who was on that morning. (I'm sure that was very annoying for them, sorry)
