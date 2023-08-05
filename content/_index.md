@@ -14,6 +14,6 @@ I have the default set of hobbies & interests for a physics undergrad: on the "I
 
 I have a TBR pile stretching back to 2019, mostly novels. Opinion on the greek classics: The Odyssey is great, the Iliad is _terrible_, and the Aeneid is pretty good. Source? The odyessy has cool boat adventures, while the greeks and trojans never even leave Ilium!! The horse isn't even in the book. 
 
-Puzzles, bugaboos, quandries and dilemmas? _Love'em_. I used to focus in on competitive programming when I was younger, which served as my main aspiration. Now though, I tend to be less focus and more diversified, so I like fun maths problems, latin square puzzles, crosswords, etc. Although usually I like to study puzzles that can be analysed for their mathematical properties, like sudoku or hashiwokakero.
+Puzzles, bugaboos, quandries and dilemmas? _Love'em_. I used to focus in on competitive programming when I was younger, which served as my main aspiration. Now though, I tend to be less focussed and more diversified, so I like fun maths problems, latin square puzzles, crosswords, etc. Although usually I like to study puzzles that can be analysed for their mathematical properties, like sudoku or hashiwokakero.
 
 ### Site index:
