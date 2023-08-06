@@ -16,3 +16,5 @@ My summer here in Cork has been absolutely laden with coffee dissapointments. Ve
 The green frog cafe is very cute but once I had a terrible time (again, they were very busy, not their fault) and the way I work I just can't go back now, the vibes are off. (That said, they saved my morning another time when UCC accom kicked me and my gf out earlier than expected. I was very upset but I got a great smoothie and chilled out). 
 
 Really what I should do is just start ordering easier coffees to make if I want to be let down less often. I've never had a bad iced coffee before. But I will continue to chase this brewhouse high nonetheless. RIP :(
+
+(Update from the future, just had a perfect machiatto at plugd vinyl and cafe!! So good wtf)
