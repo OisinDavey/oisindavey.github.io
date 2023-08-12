@@ -1,5 +1,5 @@
 ---
-title: "Uncountability of the reals"
+title: "Uncountability of the reals (proof)"
 date: 2023-08-05T22:07:00+01:00
 draft: false
 tags: ["Maths", "Study"]

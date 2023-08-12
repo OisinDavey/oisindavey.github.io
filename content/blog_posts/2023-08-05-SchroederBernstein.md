@@ -1,5 +1,5 @@
 ---
-title: "Schröder Bernstein"
+title: "Schröder Bernstein (Proof)"
 date: 2023-08-05T14:09:16+01:00
 draft: false
 tags: ["Maths", "Study"]
