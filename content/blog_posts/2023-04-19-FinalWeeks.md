@@ -2,7 +2,7 @@
 title: "Final Weeks"
 date: 2023-04-19T20:08:40+01:00
 draft: false
-tags: ["physics", "maths", "study", "Maynooth university"]
+tags: ["Physics", "Maths", "Study", "Maynooth university"]
 ---
 
 Today marks 23 days remaining until my first summer exam occurs, meaning that the next three weeks will be crucial in terms of study. Ideally I'd be studying thoughout the entirety of the academic term but given the workload I really don't think that's possible without risking complete burnout. That is to say that the majority of the study will take place in the form of revision.
