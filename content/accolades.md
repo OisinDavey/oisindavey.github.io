@@ -7,12 +7,22 @@ draft: false
 ## 2024
 > All Ireland Collegiate Programming Contest 4th place.  
 
+> Studentship in geodetics to CERN.
+
+> Monsignor Spelman Prize for best performance in second year Pure Maths and Theoretical Physics.
+
+> Offered Graduate machine learning internship at Beyond Inc. (Formerly Overstock).
+
+> Offered Summer Internships for Maths and Theoretical Physics at Maynooth.
+
+> Represented Maynooth at the Irish Maths Intervarsities.
+
 ## 2023
 > Delort prize for outstanding performance in pure maths exams.
 
-> Huxley prize for best performance in Euclidean Geometry
+> Huxley prize for best performance in Euclidean Geometry.
 
-> Monsignor Spelman Prize for best performance in second year Maths and Maths Physics
+> Monsignor Spelman Prize for best performance in first year Pure Maths and Theoretical Physics.
 
 > All Ireland Collegiate Programming Contest 1st place.  
 
