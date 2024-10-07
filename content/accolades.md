@@ -5,9 +5,11 @@ draft: false
 ---
 
 ## 2024
+> Hamilton Prize for being in the top nine mathematics undergrads on the island of Ireland.
+
 > All Ireland Collegiate Programming Contest 4th place.  
 
-> Studentship in geodetics to CERN.
+> Studentship in Geodesy & Software Development at CERN, Geneva.
 
 > Monsignor Spelman Prize for best performance in second year Pure Maths and Theoretical Physics.
 
