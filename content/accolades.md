@@ -4,6 +4,9 @@ date: 2023-04-13T08:34:23+01:00
 draft: false
 ---
 
+## 2025
+> Became a member of the Irish Mathematical Trust.
+
 ## 2024
 > Hamilton Prize for being in the top nine mathematics undergrads on the island of Ireland.
 
@@ -13,11 +16,11 @@ draft: false
 
 > Monsignor Spelman Prize for best performance in second year Pure Maths and Theoretical Physics.
 
-> Offered Graduate machine learning internship at Beyond Inc. (Formerly Overstock).
-
-> Offered Summer Internships for Maths and Theoretical Physics at Maynooth.
-
 > Represented Maynooth at the Irish Maths Intervarsities.
+
+> Represented Maynooth at the UKIEPC at the University of Edinburgh.
+
+> Represented Maynooth at NWERC at TUDelft.
 
 ## 2023
 > Delort prize for outstanding performance in pure maths exams.

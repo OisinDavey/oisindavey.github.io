@@ -8,7 +8,7 @@ draft: false
 
 ### Hiya!
 
-My name is Oisín (with a fada); I'm studying to become a physicist/mathematician/something or other at Maynooth University, Ireland. At time of writing, I've just recently returned from working at CERN in Geneva and have entered my final year of undergrad.
+My name is Oisín (with a fada); I'm studying to become a physicist at Cambridge University. At time of writing, I've just graduated with a Bachelor's degree from Maynooth University.
 
 ### Listening
 
@@ -21,9 +21,9 @@ Artists:
 
 ### Reading
 
-The TBR pile currently streches back to 2019, largely due to a book-buying spree in 2021 from which I have yet to recover financially or otherwise. On the chopping block right now are: Asimov's <<Foundation>>, <<Gödel, Escher, Bach>>, <<Glory>> by NoViolet Bulawayo, <<Klara and the sun>>, <<Something wicked this way comes>>, and <<After dark>>.
+The TBR pile currently streches back to 2019, largely due to a book-buying spree in 2021 from which I have yet to recover financially or otherwise. On the chopping block right now are: <<The road to Wigan Pier>>, <<Gödel, Escher, Bach>>, <<Glory>> by NoViolet Bulawayo, <<Klara and the sun>>, <<Something wicked this way comes>>, and <<After dark>>.
 
-I'm not sure if reading textbooks counts, or at least whether it's right to talk about that in this section. Regardless the library have, in a masterful gambit of which even Ceaser would be jealous, begun construction in the maths & science section at the beginning of term time (ingenious) and as such I don't even have access to textbooks.
+I'm not sure if reading textbooks counts, or at least whether it's right to talk about that in this section, but I'm currently working through fractal geometry texts by Falconer as part of my research and through <<Quantum Field Theory for the Gifted Amateur>>.
 
 ### Puzzles & Problem Solving
 
@@ -33,9 +33,9 @@ I'd say there are two main types of puzzle: Puzzles of the first kind have _unde
 
 However, this pre-requisite cannot be defined to the player without immediately spoiling the solution. On the other hand, when solving a sudoku, you can be given all of the rules and, given infinite time, you could always solve it (and know that you have done so). This distinction is designed to hopefully codify the intuitive separation between word puzzles and number puzzles.
 
-Ofttimes, puzzles of the first kind come with ambiguity, such that, in order to solve them, the player must understand the cultural context surrounding the puzzle. You should be thinking in completely different ways when you're solving a Guardian crossword as opposed to when solving a NYT crossword. It's this facet of these puzzles which invites derision from those with few friends and from those who refuse to keep up with the world around them. Your "IQ" can be as high as you like, but if you don't know who Chappell Roan is, you're not going to be solving any crosswords in 10 years.
+Ofttimes, puzzles of the first kind come with ambiguity, such that, in order to solve them, the player must understand the cultural context surrounding the puzzle. You should be thinking in completely different ways when you're solving a Guardian crossword as opposed to when solving a NYT crossword. It's this facet of these puzzles which invites derision from those who refuse to keep up with the world around them. Your "IQ" can be as high as you like, but if you don't know who Chappell Roan is, you're not going to be solving any crosswords in 10 years.
 
-The joy in puzzles of the second kind, for me, is in taking the rules and deriving, therefrom, a set of implicit rules which offer a different perspective on the puzzle at hand. Take, for example, the _fences_ puzzle. In _fences_, you are given the set of lattice points of a square grid, where you can draw vertical and horizontal lines between points, with the goal of forming one loop through all of the points. The solution, as in any puzzle, is uniquely determined. One of the rules states that the loop cannot self intersect, which implicitly means that the resulting curve forms the perimeter of a simple polygon in the plane. With this in mind, you can now have a coherent notion of a space being <<inside>> or <<outside>> the polygon, and rephrase the puzzle in this way.
+The joy in puzzles of the second kind, for me, is in taking the rules and deriving, therefrom, a set of implicit rules which offer a different perspective on the puzzle at hand. Take, for example, the _fences_ puzzle. In _fences_, you are given the set of lattice points of a square grid, where you can draw vertical and horizontal lines between points, with the goal of forming one loop through all of the points. The solution, as in any puzzle, is uniquely determined. One of the rules states that the loop cannot self intersect, which implicitly means that the resulting curve forms the perimeter of a simple polygon in the plane. With this in mind, thanks to the Jordan Curve Theorem, you can now have a coherent notion of a space being <<inside>> or <<outside>> the polygon, and rephrase the puzzle in this way.
 
 There is an unending list of puzzles. Even within the rather specific category of latin square puzzles (to which sudoku belongs), you can find at least 5 different named puzzles.
 
